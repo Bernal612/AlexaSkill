@@ -1,0 +1,44 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "coomeva",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "CoomevaIntent",
+          "samples": [
+            "di {coomeva}",
+            "hablame {coomeva}",
+            "dime {coomeva}",
+            "cual {coomeva}",
+            "por que {coomeva}",
+            "como {coomeva}",
+            "que {coomeva}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "hola coomeva"
+    }
+  }
+}
